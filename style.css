@@ -1,0 +1,38 @@
+body{background-color: gray;
+    margin:  0 ;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0 ;
+}
+
+
+/* Segun norma no es soportado por E7 */
+div { 
+    box-sizing: inline-block; 
+}
+
+.centeredContainer {
+    background-color: white ;
+    width: 600px ;
+    margin: auto ;
+}
+
+.headerContainer {
+    background-color: white;
+}
+
+.postContentContainer img {
+    width: 100% ; 
+}
+
+.postContainer .postHeaderContainer div:first-child {
+    display: inline-block;
+    width: 80% ;
+}
+    
+.postContainer.postHeaderContainer div:last-child {
+    display: inline-block;
+    width: 20% ;
+}
